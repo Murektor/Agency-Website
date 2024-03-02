@@ -64,6 +64,7 @@ button::-moz-focus-inner {
 a,
 a:visited {
 	text-decoration: none;
+	color: unset;
 }
 
 a:hover {
@@ -89,4 +90,36 @@ h6 {
 
 body {
 	font-family: "Montserrat", sans-serif;
+	background-color: var(--co-white);
+}
+
+.container {
+	max-width: 1400px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 235px;
+	height: 45px;
+	flex-shrink: 0;
+}
+
+.btn {
+	width: 170px;
+	height: 60px;
+	color: var(--co-white);
+	font-size: 18px;
+	font-weight: 500;
+	background-color: var(--co-dark-blue);
+}
+
+.btn:hover {
+	outline: 2px solid var(--co-dark-blue);
+	cursor: pointer;
+}
+
+.btn--login {
+	background-color: transparent;
+	color: var(--co-black);
 }

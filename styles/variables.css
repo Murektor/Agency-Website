@@ -1,1 +1,7 @@
-:root {}
+:root {
+	--co-white: #fff;
+	--co-blue: #01A4EF;
+	--co-dark-blue: #0F2C49;
+	--co-black: #151718;
+	--co-light-black: #585858;
+}
