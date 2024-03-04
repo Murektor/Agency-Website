@@ -123,3 +123,13 @@ body {
 	background-color: transparent;
 	color: var(--co-black);
 }
+
+.btn--learn {
+	background-color: transparent;
+	outline: 1px solid var(--co-white);
+}
+
+.btn--learn:hover {
+	background-color: var(--co-white);
+	color: var(--co-dark-blue);
+}
