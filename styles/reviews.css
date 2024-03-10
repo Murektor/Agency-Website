@@ -18,3 +18,39 @@
 	color: var(--co-white);
 	margin-bottom: 50px;
 }
+
+.reviews__title span {
+	font-weight: 400;
+}
+
+.slider .slick-list {
+	overflow: hidden;
+}
+
+.slider .slick-track {
+	display: flex;
+}
+
+.slider .slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider .slick-dots li {
+	list-style: none;
+	margin: 10px 10px 0 10px;
+}
+
+.slider .slick-dots li.slick-active button {
+	background-color: var(--co-blue);
+	border: 1px solid var(--co-white);
+}
+
+.slider .slick-dots button {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	color: var(--co-white);
+}
