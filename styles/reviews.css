@@ -1,0 +1,20 @@
+.reviews {
+	width: 100%;
+	padding: 90px 0;
+	background-color: var(--co-dark-blue);
+	text-align: center;
+}
+
+.reviews__suptitle {
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--co-white);
+	margin-bottom: 15px;
+}
+
+.reviews__title {
+	font-size: 40px;
+	font-weight: 600;
+	color: var(--co-white);
+	margin-bottom: 50px;
+}

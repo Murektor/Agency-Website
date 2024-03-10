@@ -1,0 +1,72 @@
+.team {
+	background: url('../assets/webp/BG_white.webp') center/cover no-repeat;
+	padding: 130px 0 100px;
+	text-align: center;
+	height: 1700;
+}
+
+
+.team__title {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 60px;
+	color: var(--co-black);
+}
+
+.team__title span {
+	font-weight: 400;
+}
+
+.team__suptitle {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	color: var(--co-blue);
+}
+
+.team__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.team__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+	color: var(--co-black);
+	background-color: var(--co-white);
+}
+
+.team__photo {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.team__name {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 15px 0;
+}
+
+.team__prof {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.team__text {
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 440;
+	margin-bottom: 15px;
+}
+
+.social__item {
+	margin: 0 8px;
+}
