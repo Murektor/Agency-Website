@@ -44,7 +44,8 @@
 
 .team__photo {
 	display: block;
-	max-width: 100%;
+	width: 100%;
+	/* max-width: 100%; */
 	height: auto;
 }
 
@@ -58,6 +59,7 @@
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 15px;
+	color: var(--co-blue);
 }
 
 .team__text {
@@ -74,4 +76,9 @@
 
 .social {
 	width: 100%;
+}
+
+.social__icon:hover {
+	scale: .95;
+	transition: all linear .1s;
 }
